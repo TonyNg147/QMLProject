@@ -1,0 +1,48 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>GridViewContainer.qml</file>
+        <file>ListViewContainer.qml</file>
+        <file>PathViewContainer.qml</file>
+        <file>SlideShowEffect.qml</file>
+        <file>MaximizedImages.qml</file>
+        <file>images/Actions-document-save-as-icon.png</file>
+        <file>images/box-shadow.png</file>
+        <file>images/busy.png</file>
+        <file>images/cardboard.png</file>
+        <file>images/grid.png</file>
+        <file>images/Image-icon.png</file>
+        <file>images/kebab-menu.png</file>
+        <file>images/listIcon.png</file>
+        <file>images/open-file-icon (1).png</file>
+        <file>images/open-file-icon.png</file>
+        <file>images/openIcon.ico</file>
+        <file>images/slideShow.png</file>
+        <file>images/stackVIew.png</file>
+        <file>Demo/bulk.jfif</file>
+        <file>Demo/car1.jfif</file>
+        <file>Fancy Cars/01.jpg</file>
+        <file>Fancy Cars/02.jpeg</file>
+        <file>Fancy Cars/03.jpg</file>
+        <file>Fancy Cars/04.jpg</file>
+        <file>Fancy Cars/05.jpg</file>
+        <file>ButtonImages/arrow.png</file>
+        <file>ButtonImages/arrow@2x.png</file>
+        <file>ButtonImages/arrow@3x.png</file>
+        <file>ButtonImages/arrow@4x.png</file>
+        <file>ButtonImages/arrows.png</file>
+        <file>ButtonImages/arrows@2x.png</file>
+        <file>ButtonImages/arrows@3x.png</file>
+        <file>ButtonImages/arrows@4x.png</file>
+        <file>ButtonImages/PlayButton.png</file>
+        <file>ButtonImages/qt-logo.png</file>
+        <file>ButtonImages/qt-logo@2x.png</file>
+        <file>ButtonImages/qt-logo@3x.png</file>
+        <file>ButtonImages/qt-logo@4x.png</file>
+        <file>MyToolButton.qml</file>
+        <file>AddButton.qml</file>
+        <file>ButtonImages/TrashBin.png</file>
+        <file>test.qml</file>
+        <file>images/internet.png</file>
+    </qresource>
+</RCC>
