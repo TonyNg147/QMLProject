@@ -152,8 +152,9 @@ QString ImageListModel::get(int index,int role) const
 void ImageListModel::pickingFile()
 {
     QStringList names = QFileDialog::getOpenFileNames(nullptr,"Choose images",
-                                                      QDir::fromNativeSeparators("C:\\Users\\OS\\Desktop\\PhotoViewerQML\\PhotoViewer\\Fancy Cars"),
+                                                      QDir::fromNativeSeparators(""),
                                                       tr("Images (*.png *.jpg)"));
+    //D:\\Fancy Cars
     for (int i=0;i<names.count();i++)
     {
         QString source = names[i];
@@ -175,12 +176,16 @@ void ImageListModel::appendPics(QString path)
 
 void ImageListModel::emitMakeViewChange()
 {
+    //
     qDebug()<<"Call emit make view";
     emit makeViewChange();
 }
 
+
+
 void ImageListModel::setCount(int newCount)
 {
+
     if (m_count == newCount)
         return;
     m_count = newCount;

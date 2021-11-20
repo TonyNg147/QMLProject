@@ -41,6 +41,7 @@ public slots:
 private:
     DataForModel* m_data;
     int m_count;
+    QString test;
 };
 
 #endif // IMAGELISTMODEL_H

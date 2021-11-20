@@ -10,7 +10,9 @@ Page{
         id:listViewContainer
         height:parent.height;width:parent.width
         clip:true
+
         ListView{
+
             id:listView
             ScrollBar.vertical: ScrollBar{
                 hoverEnabled:true
@@ -25,15 +27,6 @@ Page{
                 leftMargin:20
                 rightMargin:20
             }
-
-//            Image{
-//                id:listViewItemImage
-//                fillMode:Image.PreserveAspectCrop
-//                x:20;y:20
-//                width:128;height:128
-//                source:model.source
-//            }
-            //MouseArea{anchors.fill:parent;onClicked:maximizeImage(listViewItemImage,filePath,index)
             model:fileModel
             delegate:SwipeDelegate {
                 id: swipeDelegate

@@ -506,6 +506,7 @@ ApplicationWindow{
                                     if (textField.text !== "")
                                     {
                                         fileModel.appendPics(textField.text)
+
                                         textField.clear()
                                     }
 
